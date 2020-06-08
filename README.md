@@ -1,4 +1,4 @@
-# protractor_visualStudio_typescript_cucmber Framework
+# protractor_visualStudio_typescript_cucumber Framework
 complete end to end to framework for protractor cucumber with typeScript
 features are:
 all Dependencies
