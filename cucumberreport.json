@@ -1,0 +1,112 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "angular page click on page link and navigate to home page",
+    "line": 1,
+    "id": "angular-page-click-on-page-link-and-navigate-to-home-page",
+    "tags": [],
+    "uri": "features\\cucumber.feature",
+    "elements": [
+      {
+        "id": "angular-page-click-on-page-link-and-navigate-to-home-page;landing-to-angular-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "landing to angular page",
+        "tags": [
+          {
+            "name": "@dummyTag",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinations\\hooks.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I will navigate to landing page2",
+            "match": {
+              "location": "stepDefinations\\steps2.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I will click on page2 link",
+            "match": {
+              "location": "stepDefinations\\steps2.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I will naviagate to other site2",
+            "match": {
+              "location": "stepDefinations\\steps2.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I will enter  in search field",
+            "match": {
+              "location": "stepDefinations\\steps2.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinations\\hooks.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
